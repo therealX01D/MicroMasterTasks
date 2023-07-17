@@ -4,7 +4,7 @@ Plotter is an app used to plot any user inputted equation between given boundari
 ## images
 ![alt text](https://github.com/therealX01D/MicroMasterTasks/blob/main/Screenshot%202023-07-17%20232458.png)
 ![alttext](https://github.com/therealX01D/MicroMasterTasks/blob/main/Screenshot%202023-07-17%20233007.png)
-![alt text](https://github.com/therealX01D/MicroMasterTasks/blob/main/Screenshot%202023-07-17%20234051.png)
+![alt text](https://github.com/therealX01D/MicroMasterTasks/blob/main/Screenshot%202023-07-17%20235648.png)
 ## Installation
 
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
