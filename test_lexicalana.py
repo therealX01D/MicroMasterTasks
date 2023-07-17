@@ -1,0 +1,13 @@
+import lexicalana
+def test_1():
+    assert lexicalana.token("-844794874")[0]==['-','-']
+def test_2():
+    assert lexicalana.token("84479-4874")[1]==['-','-']
+def test_3():
+    assert lexicalana.checkForValidity("84479*4874^4+6-50/1000^x")[0]=="accepted"
+def test_4():
+    assert lexicalana.checkForValidity("84479*4874^4+6-50/x1000^x")[0]=="refused"
+def test_5():
+    assert lexicalana.checkForValidity("84479*4874^4+6--50/1000^x")[0]=="refused"
+def test_6():
+    assert lexicalana.checkForValidity("84479*4874^4+6-(-50)/1000^x")[0]=="accepted"
